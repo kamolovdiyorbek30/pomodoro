@@ -1,0 +1,45 @@
+*{
+  color: white;
+}
+body {
+  background: #000000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.container {
+  background: rgb(0, 0, 0);
+  padding: 25px;
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 0px 15px 11px rgba(255, 255, 255, 0.2);
+}
+
+.timer {
+  font-size: 64px;
+  margin: 25px 0;
+  font-weight: bold;
+}
+
+.settings input {
+  width: 70px;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  background: #ff6f3c;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #ff4a14;
+}
