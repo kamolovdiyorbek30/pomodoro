@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Pomodoro Taymer (React)</h1>
+      <h1>Pomodoro Taymer</h1>
 
       <div className="settings">
         <label>
